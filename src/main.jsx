@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+
 
 import App from "./App.jsx";
 import "./index.css";
-
+serviceWorkerRegistration.register();
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
