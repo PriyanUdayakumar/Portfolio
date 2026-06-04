@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useSound } from "@/hooks/use-sound";
 
 const lines = [
-  "[ OK ]  Initializing PRIYAN.OS kernel v2.0.28",
+  "[ OK ]  Initializing PRIYAN.U kernel v2.0.28",
   "[ OK ]  Mounting neural cortex modules",
   "[ OK ]  Calibrating particle universe",
   "[ OK ]  Loading AI vision subsystems (YOLOv8)",

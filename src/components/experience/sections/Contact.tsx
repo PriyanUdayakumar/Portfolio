@@ -8,7 +8,7 @@ import { useSound } from "@/hooks/use-sound";
 type Line = { t: "in" | "out" | "sys"; text: string };
 
 const intro: Line[] = [
-  { t: "sys", text: "PRIYAN.OS terminal v2.0 — type 'help' to list commands" },
+  { t: "sys", text: "PRIYAN.U terminal v2.0 — type 'help' to list commands" },
   { t: "out", text: "Welcome, operator. The channel is open." },
 ];
 
